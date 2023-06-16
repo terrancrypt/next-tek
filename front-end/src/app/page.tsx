@@ -1,12 +1,14 @@
 import CarouselHomePage from "@/components/Carousel/CarouselHomePage";
+import GridCategory from "@/components/GridCategory/GridCategory";
 
 
 const Home: React.FC = () => {
 
   return (
-    <section className="h-[80vh] w-full">
-      <CarouselHomePage/>
-    </section>
+    <div className="mt-[60px]">
+      <CarouselHomePage />
+      <GridCategory />
+    </div>
   )
 }
 

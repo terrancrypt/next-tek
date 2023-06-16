@@ -7,7 +7,7 @@ interface CarouselItem {
 export const dataCarousel: CarouselItem[] = [
   {
     tag: "Iphone",
-    title: "New Iphone, New Lover",
+    title: "New Phone, New Lover",
     imgUrl:
     "/images/carousel1.jpg",
   },
