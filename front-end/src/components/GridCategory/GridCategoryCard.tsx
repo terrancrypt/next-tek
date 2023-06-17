@@ -10,7 +10,7 @@ const GridCategoryCard: React.FC = () => {
             <div className='w-full h-[500px] relative overflow-hidden rounded-lg'>
                 <Image className="object-cover hover:scale-110 transition-all duration-500" src="https://images.pexels.com/photos/5083491/pexels-photo-5083491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt='' fill />
             </div>
-            <div className='absolute bottom-[100px] left-0 overflow-hidden'>
+            <div className='absolute bottom-[60px] left-0 overflow-hidden'>
                 <p className='font-light text-sm bg-white opacity-90 rounded px-2 max-w-fit'>4 products</p>
                 <h2 className={`${styles.category__card_title} text-4xl font-semibold mt-4 max-w-fit`}>Iphone</h2>
             </div>

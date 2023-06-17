@@ -1,8 +1,13 @@
 import React from 'react'
+import FooterTop from './FooterTop'
+import FooterBottom from './FooterBottom'
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
-    <div>Vcl</div>
+    <footer className='container mx-auto pt-20'>
+      <FooterTop/>
+      <FooterBottom/>
+    </footer>
   )
 }
 

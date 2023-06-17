@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+[type='email']:focus {
+    border-color: black!important;
+    --tw-ring-color: black!important;
+}
